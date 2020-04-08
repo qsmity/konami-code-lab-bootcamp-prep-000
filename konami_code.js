@@ -26,7 +26,7 @@ function init() {
       }
       index = 0
     } else {
-      key.preventDefault()
+      e.preventDefault()
       index = 0
     }
   })
