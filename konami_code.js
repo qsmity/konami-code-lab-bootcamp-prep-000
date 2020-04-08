@@ -20,7 +20,12 @@ function init() {
     if (key === codes[index]){
       index++
       
-      if ()
+      if (index === codes.length){
+        alert("Hurray, achievment unlocked!")
+      }
+      index = 0
+    } else {
+      index = 0
     }
   })
 }
