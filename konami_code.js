@@ -1,6 +1,6 @@
 const codes = [
-  // "ArrowUp",
-  // "ArrowUp",
+  "ArrowUp",
+  "ArrowUp",
   "ArrowDown",
   "ArrowDown",
   "ArrowLeft",
@@ -23,8 +23,8 @@ function init() {
       
       if (index === codes.length){
         alert("Hurray, achievment unlocked!")
+        index = 0
       }
-      index = 0
     } else {
       e.preventDefault()
       index = 0
